@@ -1,0 +1,84 @@
+* {
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 20px;
+}
+
+.nav-bar {
+  text-decoration: none;
+  display: flex;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+}
+
+.nav-bar a {
+  color: white;
+  padding-left: 20px;
+}
+
+.nav-bar li {
+  display: inline;
+  font-size: 22px;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.mainImage {
+  overflow-x: hidden;
+  margin: 0 20px;
+}
+
+.mainCover {
+  height: 700px;
+  width: 100%;
+  object-fit: cover;
+  overflow-x: hidden;
+}
+
+.mainBanner {
+  width: 100%;
+  color: white;
+  overflow: hidden;
+  background-color: black;
+  position: absolute;
+  z-index: 1;
+  top: 320px;
+  left: 0;
+}
+
+.mainBanner h4 {
+  text-align: center;
+  margin: 20px;
+}
+
+.mainBanner h2 {
+  text-align: center;
+}
+
+.secondHeading {
+  text-align: center;
+  color: white;
+  margin-top: 80px;
+}
+
+.secondh4 {
+  text-align: center;
+  color: white;
+}
+
+.photos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.photos img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
