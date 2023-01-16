@@ -70,15 +70,38 @@
   color: white;
 }
 
-.photos {
+.images {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.photos img {
+.images2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.images2 img {
   height: 200px;
   width: 300px;
   padding: 10px;
+}
+
+.images img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+.images h3 {
+  color: white;
+  text-align: center;
+}
+
+.images2 h3 {
+  color: white;
+  text-align: center;
 }
