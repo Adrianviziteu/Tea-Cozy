@@ -1,6 +1,7 @@
 * {
   background-color: black;
   font-family: Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 
 .logo {
@@ -104,4 +105,97 @@
 .images2 h3 {
   color: white;
   text-align: center;
+}
+
+.lastcontainer {
+  width: auto;
+  background-image: url("resources/img-locations-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 80px;
+}
+
+.lastcontainer h1 {
+  color: white;
+  text-align: center;
+  background-color: transparent;
+  padding-top: 50px;
+  display: block;
+}
+
+.containers {
+  flex-wrap: wrap;
+  background-color: transparent;
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+  justify-content: center;
+  max-height: 500px;
+}
+
+.container1 {
+  height: 250px;
+  width: 250px;
+  background-color: black;
+  margin: 10px 40px;
+}
+
+.container1 h2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.container1 p {
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.container2 {
+  height: 250px;
+  width: 250px;
+  background-color: black;
+  margin: 10px 40px;
+}
+
+.container2 h2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.container2 p {
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.container3 {
+  height: 250px;
+  width: 250px;
+  background-color: black;
+  margin: 10px 40px;
+}
+
+.container3 h2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.container3 p {
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.footer-container {
+  color: white;
+  text-align: center;
+}
+
+.copyright {
+  color: white;
+  padding-left: 20px;
 }
